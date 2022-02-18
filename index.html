@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/img/sushi.svg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>OSHI SUSHI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__logo">
+          <img src="/img/icons8-суши-с-лососем-96 1.png" alt="" />
+          <div class="header__text">
+            OSHI <br />
+            SUSHI
+          </div>
+        </div>
+        <div class="nav" id="nav">
+          <a href="#" class="nav__link" data-scroll="#take">Заберу сам</a>
+          <a href="#" class="nav__link" data-scroll="#nabors">Набори</a>
+          <a href="#" class="nav__link" data-scroll="#contacts">Контакти</a>
+        </div>
+        <div class="nav__order">
+          Замовлення по телефону <br />
+          <span class="nav__phone">+380504108767</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro">
+      <div class="intro__text">
+        <div class="intro__suptext">
+          Зробіть замовлення “Заберу сам” та отримайте друге в подарунок
+        </div>
+        <div class="intro__buuton" data-scroll="#take">ЗАБЕРУ САМ</div>
+
+      </div>
+    </div>
+
+    <div class="delivery" id="take">
+      <div class="container">
+        <div class="container__header">
+          <div class="container__border"></div>
+          <div class="delivery__text">Заберу сам</div>
+          <div class="container__border"></div>
+        </div>
+
+        <div class="parent">
+          <div class="div1">
+            <div class="sushi__block">
+              <div class="sushi__photo">
+                <!-- <img class="sushi__img" src="/img/1.png" alt="" /> -->
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo1"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Філадельфія</div>
+              <div class="sushi__weight">300г</div>
+              <div class="sushi__description">лосось, авокадо, сир</div>
+              <div class="sushi__price">200 грн</div>
+            </div>
+          </div>
+          <div class="div2">
+            <div class="sushi__block">
+              <div class="sushi__photo">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo2"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Сяке</div>
+              <div class="sushi__weight">300г</div>
+              <div class="sushi__description">лосось, авокадо, ікра</div>
+              <div class="sushi__price">230 грн</div>
+            </div>
+          </div>
+          <div class="div3">
+            <div class="sushi__block">
+              <div class="sushi__photo">
+                <!-- <img class="sushi__img" src="/img/3.png" alt="" /> -->
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo4"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Курасава</div>
+              <div class="sushi__weight">300г</div>
+              <div class="sushi__description">креветка, огірок, тунець</div>
+              <div class="sushi__price">220 грн</div>
+            </div>
+          </div>
+          <div class="div4">
+            <div class="sushi__block">
+              <div class="sushi__photo">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo3"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Каліфорнія</div>
+              <div class="sushi__weight">300г</div>
+              <div class="sushi__description">
+                креветка, огірок, сир, кунжут
+              </div>
+              <div class="sushi__price">300 грн</div>
+            </div>
+          </div>
+          <div class="div5">
+            <div class="sushi__block">
+              <div class="sushi__photo">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo6"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Кайєсі</div>
+              <div class="sushi__weight">300г</div>
+              <div class="sushi__description">
+                угорь, ікра, омлет, нурі, сир
+              </div>
+              <div class="sushi__price">280 грн</div>
+            </div>
+          </div>
+          <div class="div6">
+            <div class="sushi__block">
+              <div class="sushi__photo">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo5"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Ясай макі</div>
+              <div class="sushi__weight">300г</div>
+              <div class="sushi__description">
+                лосось, нурі, авокадо, тунець, сир
+              </div>
+              <div class="sushi__price">250 грн</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="delivery delivery-grey" id="nabors">
+      <div class="container">
+        <div class="container__header">
+          <div class="container__border"></div>
+          <div class="delivery__text delivery__text--grey">Набори</div>
+          <div class="container__border"></div>
+        </div>
+
+        <div class="parent">
+          <div class="div1">
+            <div class="sushi__block sushi__block--grey">
+              <div class="sushi__photo sushi__photo--margin">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo7"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Big сет</div>
+              <div class="sushi__weight">1000г</div>
+              <div class="sushi__description">лосось, авокадо, сир</div>
+              <div class="sushi__price">850 грн</div>
+            </div>
+          </div>
+          <div class="div2">
+            <div class="sushi__block sushi__block--grey">
+              <div class="sushi__photo sushi__photo--margin">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo8"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Червоний сет</div>
+              <div class="sushi__weight">680г</div>
+              <div class="sushi__description">лосось, авокадо, ікра</div>
+              <div class="sushi__price">700 грн</div>
+            </div>
+          </div>
+          <div class="div3">
+            <div class="sushi__block sushi__block--grey">
+              <div class="sushi__photo sushi__photo--margin">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo9"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Сет макі</div>
+              <div class="sushi__weight">500г</div>
+              <div class="sushi__description">креветка, огірок, тунець</div>
+              <div class="sushi__price">600 грн</div>
+            </div>
+          </div>
+          <div class="div4">
+            <div class="sushi__block sushi__block--grey">
+              <div class="sushi__photo sushi__photo--margin">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo10"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Сет спайс</div>
+              <div class="sushi__weight">580г</div>
+              <div class="sushi__description">
+                креветка, огірок, сир, кунжут
+              </div>
+              <div class="sushi__price">600 грн</div>
+            </div>
+          </div>
+          <div class="div5">
+            <div class="sushi__block sushi__block--grey">
+              <div class="sushi__photo sushi__photo--margin">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo11"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Ясай сет</div>
+              <div class="sushi__weight">650г</div>
+              <div class="sushi__description">
+                лосось, нурі, авокадо, тунець, сир
+              </div>
+              <div class="sushi__price">650 грн</div>
+            </div>
+          </div>
+          <div class="div6">
+            <div class="sushi__block sushi__block--grey">
+              <div class="sushi__photo sushi__photo--margin">
+                <img
+                  class="sushi__img"
+                  src="http://localhost:3000/photo12"
+                  alt=""
+                />
+              </div>
+              <div class="sushi__name">Сет дракони</div>
+              <div class="sushi__weight">600г</div>
+              <div class="sushi__description">
+                зелений, червоний та золотий дракони
+              </div>
+              <div class="sushi__price">680 грн</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </div>
+
+    <div class="footer__mobile">
+      <div class="parentt">
+        <div class="did1">Наша адреса</div>
+        <div class="did2">Меню</div>
+        <div class="did3">
+          c. Борщагівка, <br />
+          ЖК “Львівський Маєток”
+        </div>
+        <div class="did4">
+          Заберу сам <br />
+          Набори
+        </div>
+      </div>
+      <div class="zakaz__text">Замовлення по телефону</div>
+      <div class="zakaz__number">+38050410876</div>
+      <div class="zakaz__join">Приєднуйся до нас</div>
+      <div class="zakaz__logo">
+        <img class="zakaz__icon" src="/img/telega.png" alt="" />
+        <img class="zakaz__icon" src="/img/inst.png" alt="" />
+        <img class="zakaz__icon" src="/img/facebook.png" alt="" />
+      </div>
+    </div>
+    <footer class="footer" id="contacts">
+      <div class="footer__descr">
+        <div class="footer__adress">
+          <div class="footer__title">Наша адреса</div>
+          <div class="footer__city">
+            с. Борщагівка, <br />
+            ЖК “Львівський Маєток”
+          </div>
+        </div>
+
+        <div class="footer__menu">
+          <div class="footer__title">Меню</div>
+          <div class="footer__take">
+            Заберу сам <br />
+            Набори
+          </div>
+        </div>
+
+        <div class="footer__order">
+          <div class="footer__title">Замовлення по телефону</div>
+          <div class="footer__number">+380504108767</div>
+        </div>
+
+        <div class="footer__social">
+          <div class="footer__title">Приєднуйся до нас</div>
+          <div class="footer__icons">
+            <img class="footer__icons1" src="/img/telega.png" alt="" />
+            <img class="footer__icons1" src="/img/inst.png" alt="" />
+            <img class="footer__icons1" src="/img/facebook.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
